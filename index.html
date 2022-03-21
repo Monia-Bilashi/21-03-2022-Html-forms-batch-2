@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Form </title>
+</head>
+
+<body>
+    <h2>Simple Form Sample </h2>
+    <form action="">
+        <fieldset>
+            <legend>Personal Information </legend>
+            <p>
+                Your image:
+                <input type="file">
+            </p>
+            <p>Full Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" placeholder="Frist Name" required>
+                <input type="text" placeholder="Last Name" required>
+            </p>
+            <p>Father's Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" placeholder="Full Name" required>
+            </p>
+            <p>Mother's Name:&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" placeholder="Full Name" required>
+            </p>
+            <p>Gender:
+                <input type="radio" name="Gender" id="a">
+                <label for="a">Male</label>&nbsp;&nbsp;&nbsp;
+
+                <input type="radio" name="Gender" id="female">
+                <label for="female">Female</label> &nbsp;&nbsp;&nbsp;
+
+                <input type="radio" name="Gender" id="custom">
+                <label for="custom">Coustom</label>&nbsp;&nbsp;&nbsp;
+            </p>
+            <p>Marital status:
+                <select>
+                   <option value="">Select one..</option>
+                   <option value="">Married</option>
+                   <option value="">Unmarried</option>
+                   <option value="">Divorced</option>
+                </select> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <span>Spouse Name:<input type="text" placeholder="Ful Name"></span>
+            </p>
+            <p>
+                <span>
+                    Date of Birth:
+                <input type="date">
+                </span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <span>
+                    NID No:
+                <input type="number and text" placeholder="50524.....">
+                </span>
+            </p>
+            <p>
+                <span>
+                    Passport No:
+                <input type="text and Number" placeholder="passport number here">
+                </span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <span>
+                    Contact No.: 
+                    <input type="tel" required>
+                </span>
+            </p>
+            <p>
+                <span>
+                    Permanent Address:
+                <textarea>Please Address Here....</textarea>
+                </span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <span>
+                    Present Address:
+                <textarea>Please Address Here....</textarea>
+                </span>
+            </p>
+            <hr>
+            <p>
+                Academic Qualification : <br>
+                <input type="checkbox" id="psc">
+                <label for="psc">PSC</label>&nbsp;&nbsp;&nbsp;
+                <input type="checkbox" id="jsc">
+                <label for="jsc">JSC</label>&nbsp;&nbsp;&nbsp;
+                <input type="checkbox" id="SSC">
+                <label for="SSC">SSC/Dakhil/Vocational</label>&nbsp;&nbsp;&nbsp;
+                <input type="checkbox" id="HSC">
+                <label for="HSC">HSC/Dakhil/Vocational</label>&nbsp;&nbsp;&nbsp;
+                <input type="checkbox" id="diploma">
+                <label for="diploma">Diploma</label>&nbsp;&nbsp;&nbsp;
+                <input type="checkbox" id="bachelor">
+                <label for="bachelor">Bachelor (Genarel)</label>&nbsp;&nbsp;&nbsp;
+                <input type="checkbox" id="bachelor">
+                <label for="bachelor">Bachelor (Engineering)</label>&nbsp;&nbsp;&nbsp;
+                <input type="checkbox" id="bachelor">
+                <label for="bachelor">Kamil</label>&nbsp;&nbsp;&nbsp;
+                <input type="checkbox" id="bachelor">
+                <label for="bachelor">BA</label>&nbsp;&nbsp;&nbsp;
+                <input type="checkbox" id="bachelor">
+                <label for="bachelor">BBA</label>&nbsp;&nbsp;&nbsp;
+                <input type="checkbox" id="Msc">
+                <label for="bachelor">Bed</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="checkbox" id="Msc">
+                <label for="Msc">Masters</label>&nbsp;&nbsp;&nbsp;
+                <input type="checkbox" id="others">
+                <label for="others">Others</label>&nbsp;&nbsp;&nbsp;
+            </p>
+            <hr>
+            <p>Your Favorite Color:
+                <input type="color">
+            </p>
+            <p>Your Favorite Food:
+                <input type="Text">
+            </p>
+            <p>
+                Your Hobby:
+                <input type="Text">
+            </p>
+            <p>Basic Computer Literacy
+                <input type="range" value="90" min="1" max="100">
+                <output>90%</output>
+            </p>
+            <p>Your Comment <br>
+                <textarea cols="50" rows="10" placeholder="your comment here"></textarea>
+            </p>
+            <hr>
+            <br>
+            <p>
+                Email: <input type="email" placeholder="Enter your Email" required>
+            </p>
+            <p>
+                Password: <input type="password" placeholder="Type your Password" required>
+            </p>
+            <br>
+            <button type="submit">Submit</button>
+        </fieldset>
+    </form>
+</body>
+
+</html>
